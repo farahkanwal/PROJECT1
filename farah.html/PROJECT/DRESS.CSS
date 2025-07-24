@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html body{
+    height: 100%;
+    width: 100%;
+
+}
+#navbar{
+    height: 100px;
+    width: 100%;
+    border: 1px solid brown;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content:space-evenly;
+    position: fixed;
+    background-color: aquamarine;
+
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color:white;
+}
+    
+
+.text:hover{
+    color: blue;
+    transition: 2s;
+}
+#A{
+    color: red;
+}
+#heart:hover{
+    margin-left:10px;
+    padding: 20px;
+    color: chartreuse;
+    transition: 3s;
+
+}
+#main{
+    width: 100%;
+    height: 400px;
+    background-color:;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    overflow: hidden;
+
+}
+.box{
+    width: 200px;
+    height: 400px;
+    border-radius: 50px;
+    
+   /* background-color:yellow;*/
+    color: rgb(9, 132, 240);
+    font-weight: bold;
+}
+@keyframes farah {
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: burlywood;
+    }
+    
+}
+#main2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   /* background-color: blueviolet;*/
+  
+.button{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(134, 245, 134);
+    font-weight: bold;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: farah 3s  0s infinite linear ;
+}
+    
+}
+@keyframes farah2{
+      0%{
+        width: 0%;
+        background-color: blue;
+      }
+      25%{
+        width: 25%;
+        background-color: chocolate;
+      }
+      50%{
+        width: 50%;
+        background-color: yellow;
+      }
+      100%{
+        width: 100%;
+        background-color: violet;
+      }
+}    
+        
+        
+    
+    
+
+#main3{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+color: aliceblue;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+animation: farah2 3s linear 0s infinite alternate-reverse ;
+}
+#parent{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        background-color: aqua;
+}
+.child{
+        width: 300px;
+        height: 200px;
+        border: 2px solid black;
+        margin: 20px;
+        border-radius: 50%;
+       transition: all 3s linear 0s ;
+       object-fit: cover;
+       overflow: hidden;
+
+}
+.child:hover{
+ /* transform: rotate(50deg) scale(0.5) translate(30PX 50PX);*/
+ /* transform: rotate(300deg);
+  transform: scale(1.5);*/
+  transform: skew(45deg);
+}
+#parent1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: aqua;
+}
+.child1{
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 50%;
+    transform:translate(move);
+    transform:scale(increase);
+    transform:rotate(45deg);
+    
+}
+
+
+   
